@@ -19,7 +19,7 @@ token = config.get('token')
 status1 = config.get('status1')
 status2 = config.get('status2')
 ver = 'v1.0'
-prefix='289342w93uh5n'
+prefix='289342w93uh5n' # ignore ( i got lazy)
 bot = commands.Bot(description="Status Changing Selfbot", command_prefix=prefix, self_bot=True)
 
 def setSize():
